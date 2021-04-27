@@ -1,10 +1,31 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emojis-container {
+  margin-top: 20px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.emoji-box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.empty-box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
